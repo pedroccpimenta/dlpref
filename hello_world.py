@@ -6,7 +6,6 @@ def hello(name: str = "Marvin") -> None:
     print(f"Hello, {name}!")
 
 
-
 if __name__ == "__main__":
     # run the flow with default parameters
     with tags("test"): # This is a tag that we can use to filter the flow runs in the UI
